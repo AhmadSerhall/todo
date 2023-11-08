@@ -15,6 +15,7 @@ body{
     padding: 20px;
     width: 60vw;
     border-bottom-right-radius: 10px;
+    box-shadow: 0 2px 4px rgba(161, 23, 23, 0.1);
 }
 
 .navBar {
@@ -86,5 +87,48 @@ body{
     padding-top:50px;
     padding-left:10px;
     color:white;
-
 }
+.task-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:20px;
+    border:1px solid white;
+    
+}
+/* .task-container:hover{
+    border-color: green;
+} */
+.task-text{
+    color:white;
+    margin-bottom:30px;
+    padding-top:60px;
+}
+.task-bar input{
+    border-radius: 5px;
+    font-style: italic;
+    width:700px;
+    height:70px;
+    border: none;
+    background-color: #ffffff;
+    box-shadow:violet;
+    font-weight: 500;
+    color:#DE49D6;
+    text-align: center;
+    margin-bottom:40px;
+}
+.task-btn{
+    background-color:#5049DE;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left:-5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    height:70px;
+}
+.task-btn:hover{
+    background-color: #306fb2;
+}
+/* #3c88f7 */
