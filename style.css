@@ -96,16 +96,14 @@ body{
     border:1px solid white;
     
 }
-/* .task-container:hover{
-    border-color: green;
-} */
+
 .task-text{
     color:white;
     margin-bottom:30px;
     padding-top:60px;
 }
 .task-bar input{
-    border-radius: 5px;
+    border-top-left-radius: 5px;
     font-style: italic;
     width:700px;
     height:70px;
@@ -132,3 +130,10 @@ body{
     background-color: #306fb2;
 }
 /* #3c88f7 */
+.task-item {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
