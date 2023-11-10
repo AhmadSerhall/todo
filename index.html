@@ -3,16 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong"> -->
-    
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
-
     <title>Document</title>
 </head>
 <body>
     <div class="hero">
-        
         <ul class="navBar">
             <li><a href="index.html">Home</a></li>
             <li><a href="working.html">working on</a></li>
@@ -22,27 +18,21 @@
     </div>
     <div class="top-right">
         <div class="search-bar">
-            <input type="text" placeholder="Search Task">
-            <button>Search</button>
+            <input type="text" placeholder="Search Task" id="search-input">
+            <button onclick="searchTasks()">Search</button>
         </div>
     </div>
-    
-    <!-- <div class="avatar">
-        <img src="./assets/images/avatar.webp" alt="avatar">
-    </div> -->
     <h1 class="title">
-        <!-- What are we doing today <i class="fas fa-list-ul"></i> -->
         The future depends on what you do today
     </h1>
     <div class="task-container">
         <h1 class="task-text">What are we doing today <i class="fas fa-list-ul"></i> </h1>
         <div class="task-bar">
-        <input type="text" placeholder="Enter the task you will be doing today" name="task" id="task-input">
-        <button class="task-btn" id="add-task-button">Add task</button>
+            <input type="text" placeholder="Enter the task you will be doing today" name="task" id="task-input">
+            <button class="task-btn" id="add-task-button">Add task</button>
         </div>
-        <div class=task-list id="task-list">
-        
-        
+        <div class="task-list" id="task-list">            
+        </div>
     </div>
     <script src="./script.js"></script>
 </body>

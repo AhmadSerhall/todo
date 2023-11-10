@@ -136,4 +136,19 @@ body{
     border-radius: 5px;
     margin: 10px 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor:pointer;
+}
+.task-item:hover{
+    background-color: #e0e0e0;
+}
+.task-item:active{
+    transform: scale(1.05);
+}
+.no-tasks-message {
+    color: white;
+    margin-top: 10px;
+}
+/* Add this to your existing CSS file for styling the highlighted text */
+.highlight {
+    background-color: yellow;
 }
